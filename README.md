@@ -4,13 +4,14 @@ This optimization project is on the unit commitment problem and its MILP solutio
 
 Run the project using the MATLAB GUI. Data should be fed in the form of CSVs with CSV represented with the following fields:
 
- | Pmax | Pmin | a | b | c | min up | min down | hot start cost | cold start cost | coldstart hrs | init stat
- --- | --- | --- | --- | --- | --- | --- | --- | --- 
-Unit 1 ||||||||
-Unit 2 ||||||||
-... ||||||||
+Pmax | Pmin | a | b | c | min up | min down | hot start cost | cold start cost | coldstart hrs | init stat
+ --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- 
+Unit 1 | | | | | | | | | | 
+Unit 2 | | | | | | | | | | 
+... | | | | | | | | | | 
 
 Demand should be provided in the format below
 
 Demand | 254 | 23 | 425 | 323 | ...
+ --- | --- | --- | --- | --- | ---
 Time | 1 | 2 | 3 | 4 | ... 
