@@ -107,7 +107,7 @@ function disp_unit_Callback(hObject, eventdata, handles)
 % hObject    handle to disp_unit (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-
+disp("oui")
 
 % --- Executes on button press in solve.
 function solve_Callback(hObject, eventdata, handles)
