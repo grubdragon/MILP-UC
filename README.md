@@ -15,3 +15,11 @@ Demand should be provided in the format below
 Demand | 254 | 23 | 425 | 323 | ...
  --- | --- | --- | --- | --- | ---
 Time | 1 | 2 | 3 | 4 | ... 
+
+
+### Some Troubleshooting
+```
+ERROR - (intlinprog): problem must contain at least "f", "intcon", A" and "b".
+Output argument "x" (and maybe others) not assigned during call to "intlinprog".
+```
+For the error type above, ensure that you don't have an external 'intlinprog' library installed. Popular examples are ***mosek*** and ***yalmip***
