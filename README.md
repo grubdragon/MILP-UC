@@ -63,7 +63,14 @@ Intlinprog stopped because the objective value is within a gap tolerance of the 
 integer within tolerance, options.IntegerTolerance = 1e-05 (the default value).
 ```
 
-Thus we solved the problem solved by the Genetic Algorithm in 221 seconds with optimal objective value 565825, however, we got 532153.2 value in just 22.67 seconds, a 6% improvement with 10x speedup!
+Thus we solved the problem solved by the Genetic Algorithm in 221 seconds with optimal objective value 565825, however, we got 532153.2 value in just 22.67 seconds, a 6% improvement with 10x speedup! The outputs are given below:
+
+![Power per unit](Results/Pit.png)
+
+![Unit Commitment](Results/Uit.png)
+
+
+
 
 
 

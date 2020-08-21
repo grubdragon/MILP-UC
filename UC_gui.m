@@ -125,6 +125,7 @@ function pit_disp_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 global units demand Pit Uit;
 plot(Pit');
+saveas(gcf,'Results/Pit.png')
 
 
 % --- Executes on button press in u_disp.
@@ -135,3 +136,4 @@ function u_disp_Callback(hObject, eventdata, handles)
 global units demand Pit Uit;
 %area(Uit')
 imshow(Uit);
+saveas(gcf,'Results/Uit.png')
